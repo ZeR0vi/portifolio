@@ -14,7 +14,7 @@ export function Main() {
             <div>
              <TypeIt className="title"
              options={{loop: true}}
-             getBeforeInit = { (instance: TypeItProps) => {
+             TypegetBeforeInit = { (instance: TypeItProps) => {
                instance.type("Hello, I'm David Lorenzo").pause(1500)
                .delete(24).
                type("I'm programmer Full Stack!").
